@@ -1,0 +1,368 @@
+[
+    {
+        "id": 1,
+        "src": "assets/lipstick/lip4.jpg",
+        "alt": "Matt Lipstick",
+        "title": "Matt-Lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker",
+        "price": "$50",
+        "rating": "3",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/lipstick/lip4.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/lipstick/lip4.2.jpg",
+                "alt": "Slider Image 2"
+            },
+            {
+                "id": 3,
+                "src": "assets/lipstick/lip4.3.jpg",
+                "alt": "Slider Image 3"
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "src": "assets/serem/serem1.jpg",
+        "alt": "Serum",
+        "title": "Serem",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin",
+        "price": "$12",
+        "rating": "4",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/serem/serem1.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/serem/serem1.2.jpg",
+                "alt": "Slider Image 2"
+            },
+            {
+                "id": 3,
+                "src": "assets/serem/serem1.3.jpg",
+                "alt": "Slider Image 3"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "src": "assets/foundation/foundation1.jpg",
+        "alt": "Foundation",
+        "title": "foundation",
+        "description": "The act of founding, setting up, establishing",
+        "price": "$20",
+        "rating": "2",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/foundation/foundation1.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/foundation/foundation1.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "src": "assets/moisturizer/moisturizer1.webp",
+        "alt": "Moisturizer",
+        "title": "Moisturizer",
+        "description": "Evidence that one moisturizer is better than another. Moisturisers can improve skin comfort",
+        "price": "$30",
+        "rating": "4",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/moisturizer/moisturizer1.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/moisturizer/moisturizer1.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "src": "assets/foundation/foundation2.jpg",
+        "alt": "Foundation",
+        "title": "foundation",
+        "description": "The act of founding, setting up, establishing",
+        "price": "$25",
+        "rating": "3",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/foundation/foundation2.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/foundation/foundation2.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "src": "assets/lipstick/lip2.webp",
+        "alt": "Lipstick",
+        "title": "lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "price": "$20",
+        "rating": "5",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/lipstick/lip2.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/lipstick/lip2.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 7,
+        "src": "assets/serem/serem2.jpg",
+        "alt": "Serum",
+        "title": "serem",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "price": "$5",
+        "rating": "3",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/serem/serem2.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/serem/serem2.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 8,
+        "src": "assets/moisturizer/moisturizer2.webp",
+        "alt": "Moisturizer",
+        "title": "moisturizer",
+        "description": "Evidence that one moisturizer is better than another. Moisturisers",
+        "price": "$12",
+        "rating": "5",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/moisturizer/moisturizer2.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/moisturizer/moisturizer2.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 9,
+        "src": "assets/foundation/foundation3.jpg",
+        "alt": "Foundation",
+        "title": "foundation",
+        "description": "The act of founding, setting up, establishing",
+        "price": "$50",
+        "rating": "3",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/foundation/foundation3.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/foundation/foundation3.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 10,
+        "src": "assets/lipstick/lip3.jpg",
+        "alt": "Lipstick",
+        "title": "lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "price": "$24",
+        "rating": "2",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/lipstick/lip3.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/lipstick/lip3.2.jpg",
+                "alt": "Slider Image 2"
+            },
+            {
+                "id": 3,
+                "src": "assets/lipstick/lip3.3.jpg",
+                "alt": "Slider Image 3"
+            }
+        ]
+    },
+
+    {
+        "id": 11,
+        "src": "assets/serem/serem3.webp",
+        "alt": "Serum",
+        "title": "serem",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "price": "$8",
+        "rating": "2",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/serem/serem3.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/serem/serem3.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 12,
+        "src": "assets/moisturizer/moisturizer3.webp",
+        "alt": "Moisturizer",
+        "title": "moisturizer",
+        "description": "Evidence that one moisturizer is better than another. Moisturisers",
+        "price": "$30",
+        "rating": "4",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/moisturizer/moisturizer3.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/moisturizer/moisturizer3.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 13,
+        "src": "assets/foundation/foundation4.jpg",
+        "alt": "Foundation",
+        "title": "foundation",
+        "description": "The act of founding, setting up, establishing",
+        "price": "$12",
+        "rating": "4",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/foundation/foundation4.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/foundation/foundation4.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 14,
+        "src": "assets/lipstick/lip1.jpg",
+        "alt": "Lipstick",
+        "title": "lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "price": "$30",
+        "rating": "3",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/lipstick/lip1.2.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/lipstick/lip1.3.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 15,
+        "src": "assets/serem/serem4.jpg",
+        "alt": "Serum",
+        "title": "serem4",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "price": "$15",
+        "rating": "5",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/serem/serem4.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/serem/serem4.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    },
+
+    {
+        "id": 16,
+        "src": "assets/moisturizer/moisturizer4.jpg",
+        "alt": "Moisturizer",
+        "title": "moisturizer4",
+        "description": "Evidence that one moisturizer is better than another. Moisturisers",
+        "price": "$10",
+        "rating": "2",
+        "imageSlider": [
+            {
+                "id": 1,
+                "src": "assets/moisturizer/moisturizer4.1.jpg",
+                "alt": "Slider Image 1"
+            },
+            {
+                "id": 2,
+                "src": "assets/moisturizer/moisturizer4.2.jpg",
+                "alt": "Slider Image 2"
+            }
+        ]
+    }
+]

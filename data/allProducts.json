@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "assets/lipstick/lip4.jpg",
+        "name": "Matt-Lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "value": "$50"
+    },
+    {
+        "id": 2,
+        "imgUrl": "assets/serem/serem1.jpg",
+        "name": "Serum",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "value": "$12"
+    },
+    {
+        "id": 3,
+        "imgUrl": "assets/foundation/foundation1.jpg",
+        "name": "Foundation",
+        "description": "The act of founding, setting up, or establishing.",
+        "value": "$20"
+    },
+    {
+        "id": 4,
+        "imgUrl": "assets/moisturizer/moisturizer1.webp",
+        "name": "Moisturizer",
+        "description": "Moisturizers can improve skin comfort and help keep the skin hydrated.",
+        "value": "$30"
+    },
+    {
+        "id": 5,
+        "imgUrl": "assets/foundation/foundation2.jpg",
+        "name": "Foundation",
+        "description": "The act of founding, setting up, or establishing.",
+        "value": "$25"
+    },
+    {
+        "id": 6,
+        "imgUrl": "assets/lipstick/lip1.2.jpg",
+        "name": "Lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "value": "$20"
+    },
+    {
+        "id": 7,
+        "imgUrl": "assets/serem/serem2.jpg",
+        "name": "Serum",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "value": "$5"
+    },
+    {
+        "id": 8,
+        "imgUrl": "assets/moisturizer/moisturizer2.webp",
+        "name": "Moisturizer",
+        "description": "Moisturizers can improve skin comfort and help keep the skin hydrated.",
+        "value": "$12"
+    },
+    {
+        "id": 9,
+        "imgUrl": "assets/foundation/foundation3.jpg",
+        "name": "Foundation",
+        "description": "The act of founding, setting up, or establishing.",
+        "value": "$50"
+    },
+    {
+        "id": 10,
+        "imgUrl": "assets/lipstick/lip3.jpg",
+        "name": "Lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "value": "$24"
+    },
+    {
+        "id": 11,
+        "imgUrl": "assets/serem/serem3.webp",
+        "name": "Serum",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "value": "$8"
+    },
+    {
+        "id": 12,
+        "imgUrl": "assets/moisturizer/moisturizer3.webp",
+        "name": "Moisturizer",
+        "description": "Moisturizers can improve skin comfort and help keep the skin hydrated.",
+        "value": "$30"
+    },
+    {
+        "id": 13,
+        "imgUrl": "assets/foundation/foundation4.jpg",
+        "name": "Foundation",
+        "description": "The act of founding, setting up, or establishing.",
+        "value": "$12"
+    },
+    {
+        "id": 14,
+        "imgUrl": "assets/lipstick/lip1.jpg",
+        "name": "Lipstick",
+        "description": "Lipstick is makeup that makes your lips look darker, redder, or shinier.",
+        "value": "$30"
+    },
+    {
+        "id": 15,
+        "imgUrl": "assets/serem/serem4.jpg",
+        "name": "Serum 4",
+        "description": "Skincare product that is designed to deliver highly concentrated active ingredients to the skin.",
+        "value": "$15"
+    },
+    {
+        "id": 16,
+        "imgUrl": "assets/moisturizer/moisturizer4.jpg",
+        "name": "Moisturizer",
+        "description": "Moisturizers can improve skin comfort and help keep the skin hydrated.",
+        "value": "$10"
+    }
+]
