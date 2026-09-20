@@ -133,7 +133,6 @@ The website is designed to work across:
 
 * 💻 Desktop
 * 📱 Mobile
-* 📟 Tablet
 
 CSS media queries are used to make the layout responsive.
 
