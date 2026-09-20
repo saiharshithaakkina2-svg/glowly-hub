@@ -137,24 +137,7 @@ The website is designed to work across:
 
 CSS media queries are used to make the layout responsive.
 
-## 🧠 JavaScript Concepts Practiced
 
-Through this project, I practiced:
-
-* Variables
-* Functions
-* Arrays
-* Objects
-* `forEach()`
-* `find()`
-* Template Literals
-* DOM Manipulation
-* Event Handling
-* Fetch API
-* JSON
-* `async/await`
-* URL Parameters
-* Local Storage
 
 ## 🔄 Data Flow
 
@@ -176,16 +159,7 @@ Display Product
 
 The main goal of this project is to improve my frontend development skills by building an e-commerce website and applying JavaScript concepts in a practical project.
 
-## 🔮 Future Improvements
 
-* [ ] Complete cart quantity functionality
-* [ ] Remove products from cart
-* [ ] Calculate subtotal and total
-* [ ] Checkout page
-* [ ] Product search
-* [ ] Product filtering
-* [ ] Buy Now functionality
-* [ ] Improve UI/UX
 
 ## 👩‍💻 Learning Project
 
