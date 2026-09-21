@@ -1,0 +1,365 @@
+
+/* =========================
+   CHECKOUT PAGE
+========================= */
+
+.checkout-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+
+.checkout-container > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* Two Column Layout */
+
+.checkout-layout {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+}
+
+
+/* =========================
+   CHECKOUT FORM
+========================= */
+
+.checkout-form,
+.order-summary {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.checkout-form h2,
+.order-summary h2 {
+
+    margin-bottom: 25px;
+}
+
+
+/* Form Group */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+
+/* Inputs */
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+
+.form-group textarea {
+
+    height: 100px;
+
+    resize: vertical;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+
+    outline: none;
+
+    border-color: rgb(12, 129, 95);
+}
+
+
+/* Error */
+
+.form-group small {
+
+    display: block;
+
+    margin-top: 5px;
+
+    color: red;
+
+    font-size: 13px;
+}
+
+
+/* =========================
+   ORDER SUMMARY
+========================= */
+
+#checkoutItems {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+
+.checkout-item {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+.checkout-item img {
+
+    width: 80px;
+
+    height: 80px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+.checkout-item h3 {
+
+    margin: 0 0 8px;
+}
+
+
+.checkout-item p {
+
+    margin: 4px 0;
+
+    color: #555;
+}
+
+
+/* Total */
+
+.checkout-total {
+
+    margin-top: 20px;
+
+    padding-top: 20px;
+
+    border-top: 2px solid #ddd;
+
+    text-align: right;
+}
+
+
+/* =========================
+   PLACE ORDER
+========================= */
+
+#placeOrderBtn {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: rgb(12, 129, 95);
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+
+#placeOrderBtn:hover {
+
+    background: rgb(9, 105, 78);
+}
+
+
+/* =========================
+   SUCCESS MESSAGE
+========================= */
+
+#orderMessage {
+
+    margin-top: 30px;
+}
+
+
+.order-success {
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+.success-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgb(12, 129, 95);
+
+    color: white;
+
+    font-size: 35px;
+}
+
+
+.order-success h2 {
+
+    font-size: 28px;
+
+    margin-bottom: 15px;
+}
+
+
+.order-success p {
+
+    color: #555;
+
+    margin: 8px 0;
+}
+
+
+.order-success a {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    background: rgb(12, 129, 95);
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .checkout-layout {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .checkout-container {
+
+        width: 92%;
+
+        margin: 30px auto;
+    }
+
+
+    .checkout-container > h1 {
+
+        font-size: 32px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .checkout-form,
+    .order-summary {
+
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .checkout-item {
+
+        flex-direction: column;
+
+    }
+
+
+    .checkout-item img {
+
+        width: 100%;
+
+        height: 150px;
+    }
+
+
+    .checkout-container > h1 {
+
+        font-size: 28px;
+    }
+}

@@ -104,14 +104,10 @@ async function getProduct() {
                 </div>
 
 
-                <button class="add-cart" onclick = "addToCart(${product.id})">
-                    Add to Cart
+                <button class="add-cart" onclick="addToCart(${product.id})">
+                Add to Cart  
                 </button>
 
-
-                <button class="buy-now">
-                    Buy Now
-                </button>
 
             </div>
 
@@ -122,13 +118,55 @@ async function getProduct() {
 }
 
 
-function addToCart(id) {
 
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+async function addToCart(id) {
 
-    console.log("Cart:", cart);
-    console.log("Product ID:", id);
+  // Get existing cart
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
+  // Get selected quantity
+  const quantityElement = document.getElementById("quantity");
+  const quantity = Number(quantityElement.textContent);
+
+  // Fetch products
+  const response = await fetch("data/productdetails.json");
+
+  const products = await response.json();
+
+  // Find selected product
+  const product = products.find(function (item) {
+    return item.id === id;
+  });
+
+  console.log("Selected Product:", product);
+
+  // Check if product already exists in cart
+  const existingProduct = cart.find(function (item) {
+    return item.id === id;
+  });
+
+  if (existingProduct) {
+
+    // If already exists, increase quantity
+    existingProduct.quantity += quantity;
+
+  } else {
+
+    // Add new product
+    cart.push({
+      ...product,
+      quantity: quantity
+    });
+
+  }
+
+  // Save cart
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  console.log("Cart:", cart);
+
+  // Go to cart page
+  window.location.href = "cart.html";
 }
 
 
