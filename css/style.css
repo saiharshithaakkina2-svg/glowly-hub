@@ -32,7 +32,7 @@ body {
 .nav-listitems ul {
     display: flex;
     gap: 20px;
-    margin: 0;
+    margin: 1;
     padding: 0;
 }
 
