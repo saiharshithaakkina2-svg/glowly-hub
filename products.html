@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Products</title>
+   
 
     <link rel="stylesheet" href="css/products.css">
 </head>
@@ -18,6 +19,37 @@
         Shop Your Product
     </h1>
 
+<div class="searchAndFilterbtns">
+
+    <input
+        id="search"
+        type="search"
+        placeholder="Search your product"
+    />
+
+    <div class="sort-container">
+
+        <button id="dropdownbtn"  type="button">
+            Sort By ▼
+        </button>
+
+        <div id="dropdownmenu" class="dropdownmenu">
+
+            <button id="lowToHigh" type="button">
+                Price: Low to High
+            </button>
+
+            <button id="highToLow" type="button">
+                Price: High to Low
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<p id="errorMessage" role="status"></p>
 
     <!-- Products Container -->
 
