@@ -36,10 +36,13 @@ body {
     padding: 0;
 }
 
-.nav-listitems li {
+.nav-listitems li  {
     list-style: none;
 }
-
+.nav-listitems a  {
+    text-decoration: none;
+    color: white;
+}
 
 /* ---Hero section----*/
 

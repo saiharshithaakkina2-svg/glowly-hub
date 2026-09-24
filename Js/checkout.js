@@ -5,6 +5,13 @@ const checkoutTotal = document.getElementById("checkoutTotal");
 const checkoutForm = document.getElementById("checkoutForm");
 
 const orderMessage = document.getElementById("orderMessage");
+const checkoutLayout = document.getElementById("checkoutLayout");
+
+const checkoutHeading = document.querySelector(
+    ".checkout-container > h1"
+);
+
+
 
 
 // Get cart
@@ -212,8 +219,14 @@ checkoutForm.addEventListener("submit", function(event) {
 
 
     // Hide form
-    checkoutForm.style.display = "none";
+// Hide the customer form and order summary
+checkoutLayout.style.display = "none";
 
+// Hide the Checkout heading
+checkoutHeading.style.display = "none";
+
+// Show only the order confirmation
+orderMessage.style.display = "block";
 
     // Show confirmation
 
@@ -230,7 +243,6 @@ orderMessage.innerHTML = `
         </h2>
 
 
-    // this is smothing wronh happening 
             <div class="customer-details">
 
             <h3>

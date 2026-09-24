@@ -363,3 +363,42 @@
         font-size: 28px;
     }
 }
+
+
+
+
+
+
+
+
+
+/* Order confirmation */
+
+#orderMessage {
+    width: 100%;
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+.order-success {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.customer-details {
+    text-align: left;
+    padding: 20px;
+    margin: 25px 0;
+    background-color: #f1f8f5;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    .order-success {
+        padding: 25px 15px;
+    }
+}
