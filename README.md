@@ -154,17 +154,13 @@ DOM Manipulation
 Display Product
 ```
 
-## 🎯 Project Goal
-
-The main goal of this project is to improve my frontend development skills by building an e-commerce website and applying JavaScript concepts in a practical project.
-
 
 
 ## 👩‍💻 Learning Project
 
 GlowHub is a learning project created as part of my frontend development journey.
 
-I am building this project step by step while learning **HTML, CSS, JavaScript, Fetch API, JSON, DOM manipulation, Local Storage, Git, and GitHub**.
+I am building this project step by step while learning **HTML, CSS, JavaScript, Fetch API, JSON, DOM manipulation, Local Storage, GitHub**.
 
 > This project is for learning purposes and does not process real payments or real orders.
 
@@ -178,11 +174,7 @@ I am building this project step by step while learning **HTML, CSS, JavaScript, 
 
 
 
-
-
-
-
-
-
 <img width="363" height="386" alt="Screenshot 2026-09-19 204610" src="https://github.com/user-attachments/assets/78c0ae38-f60e-4dcc-9556-9749a88af1aa" />
 <img width="360" height="245" alt="Screenshot 2026-09-19 204625" src="https://github.com/user-attachments/assets/1afa0efa-efd4-4c04-a0e1-82a999f3487b" />
+<img width="843" height="371" alt="Screenshot 2026-09-21 213400" src="https://github.com/user-attachments/assets/a6d73b5f-4817-444d-bd96-7676cd30355a" />
+<img width="842" height="413" alt="Screenshot 2026-09-21 213419" src="https://github.com/user-attachments/assets/0bc1d32f-92e8-4697-a0b6-7a694c84fcbe" />
