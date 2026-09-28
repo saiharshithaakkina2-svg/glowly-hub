@@ -1,7 +1,6 @@
 #  GlowHub - Beauty E-Commerce Website
 
 GlowHub is a beginner-friendly beauty e-commerce website built using **HTML, CSS, JavaScript, and JSON**.
-
 The project is created to practice frontend development concepts by building a real-world style e-commerce website.
 
 ##  Technologies Used
@@ -12,7 +11,7 @@ The project is created to practice frontend development concepts by building a r
 * JSON
 * Fetch API
 * Local Storage
-* Git & GitHub
+* GitHub
 
 ## ✨ Features
 
