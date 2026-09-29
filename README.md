@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 #  GlowHub - Beauty E-Commerce Website
 
 GlowHub is a beginner-friendly beauty e-commerce website built using **HTML, CSS, JavaScript, and JSON**.
