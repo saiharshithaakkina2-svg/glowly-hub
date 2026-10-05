@@ -36,7 +36,6 @@ The project is created to practice frontend development concepts by building a r
 
 ## 📂 Project Structure
 
-```text
 GlowHub/
 │
 ├── index.html
@@ -62,8 +61,6 @@ GlowHub/
     ├── foundation/
     ├── moisturizer/
     └── serem/
-```
-
 ##  Product Listing
 
 Products are loaded from the JSON file using the JavaScript **Fetch API**.
